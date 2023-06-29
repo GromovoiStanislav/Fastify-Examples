@@ -1,0 +1,16 @@
+{
+  "name": "fasify_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.18.0",
+    "mongoose": "^7.3.1"
+  }
+}
