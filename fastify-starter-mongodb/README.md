@@ -1,0 +1,1 @@
+## Fastify Rest API Starter with @fastify/mongodb sample code ESM
