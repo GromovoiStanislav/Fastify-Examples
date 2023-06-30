@@ -1,0 +1,1 @@
+## Fastify Rest API Starter sample code
