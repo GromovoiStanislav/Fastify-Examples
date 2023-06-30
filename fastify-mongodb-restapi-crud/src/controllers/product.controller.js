@@ -8,6 +8,7 @@ const getProducts = async (req, reply) => {
         reply.code(200).send(products);
     } catch (err) {
         throw boom.boomify(err);
+        // res.code(500).send(error);
     }
 };
 
@@ -19,6 +20,7 @@ const getProductById = async (req, reply) => {
     } catch (err) {
         //throw boom.badRequest('invalid query');
         throw boom.boomify(err);
+        // res.code(500).send(error)
     }
 };
 
@@ -30,6 +32,7 @@ const saveProduct = async (req, reply) => {
         reply.code(201).send(product);
     } catch (err) {
         throw boom.boomify(err);
+        // res.code(500).send(error)
     }
 };
 
@@ -43,6 +46,7 @@ const updateProduct = async (req, reply) => {
         reply.code(200).send(product);
     } catch (err) {
         throw boom.boomify(err);
+        // res.code(500).send(error)
     }
 };
 
@@ -53,6 +57,7 @@ const deleteProduct = async (req, reply) => {
         reply.code(204).send();
     } catch (err) {
         throw boom.boomify(err);
+        // res.code(500).send(error)
     }
 };
 
